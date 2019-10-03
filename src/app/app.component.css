@@ -1,0 +1,104 @@
+table {
+  width: 100%;
+}
+.mat-table {
+  overflow: auto;
+  /* max-height: 700px; */
+}
+
+::ng-deep .mat-step-header .mat-step-icon-selected,
+.mat-step-header .mat-step-icon-state-done,
+.mat-step-header .mat-step-icon-state-edit {
+  background-color: red !important;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+  color: rgb(243, 240, 240) !important;
+  opacity: 1 !important;
+}
+
+::ng-deep
+  .mat-form-field-appearance-outline.mat-focused
+  .mat-form-field-outline-thick {
+  color: rgb(252, 248, 248) !important;
+}
+
+::ng-deep
+  .mat-form-field-appearance-outline.mat-form-field-invalid.mat-form-field-invalid
+  .mat-form-field-outline-thick {
+  color: rgb(247, 242, 242) !important;
+  opacity: 0.8 !important;
+}
+
+::ng-deep .mat-input-element {
+  caret-color: rgb(245, 241, 241) !important;
+}
+
+::ng-deep .mat-form-field-invalid .mat-input-element,
+.mat-warn .mat-input-element {
+  caret-color: rgb(248, 245, 245) !important;
+}
+
+::ng-deep .mat-form-field-label {
+  color: rgba(242, 241, 245, 0.945) !important;
+}
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+  color: rgb(255, 251, 251) !important;
+}
+
+::ng-deep .mat-form-field.mat-form-field-invalid .mat-form-field-label {
+  color: rgb(245, 238, 238) !important;
+}
+h4{
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif
+}
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff
+}
+form{
+  background: #111111;
+  padding:20px
+
+
+}
+input{
+    color:#f0eaea
+}
+select{
+    color:#fff
+}
+textarea{
+    color:white
+}
+button{
+  float:right; 
+  margin-right:200px; 
+  width:200px; 
+  height:50px; 
+  align-self: center
+}
+H1{
+  color:rgba(214, 190, 190, 0.938); 
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  background: #111111
+}
+h6{
+  color:#ffffff;
+  font-style: italic;
+  text-decoration:underline;
+  font-size:14px;
+  color: yellow
+}
+mat-icon{
+  color:#fff
+}
+
+
+th{
+  color:#fff
+}
